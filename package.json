@@ -1,0 +1,19 @@
+{
+  "name": "scenari-test",
+  "version": "1.0.0",
+  "description": "Tests for several queries on elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "elasticsearch": "^15.2.0",
+    "file-system": "^2.2.2"
+  },
+  "bin": {
+    "test-elasticsearch": "./cli.js"
+  }
+}
